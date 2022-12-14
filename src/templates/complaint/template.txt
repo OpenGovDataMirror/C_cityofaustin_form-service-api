@@ -1,0 +1,13 @@
+{% include 'common/header.txt' %}
+
+{{ t('title') }}
+
+{{ t('thanksSharingExperience') }}
+
+{{ t('youCanEmailUs') }}
+
+{{ t('foraFullExplanation') }}
+
+{% include 'complaint/form-data.txt' %}
+
+{% include 'common/footer.txt' %}

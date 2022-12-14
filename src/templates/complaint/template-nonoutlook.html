@@ -1,0 +1,12 @@
+<div class="non-outlook">
+  {% include 'common/header.html' %}
+  <div class='form-content'>
+    <h3>{{t('title')}}</h3>
+
+    <div class="form-confirmation">
+        <p>{{ t('updatedResponse') }}</p>
+    </div>
+
+    {% include 'complaint/form-data.html' %}
+  </div>
+</div>
